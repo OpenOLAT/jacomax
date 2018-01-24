@@ -11,18 +11,18 @@ All Rights Reserved
   <artifactId>jacomax-distribution</artifactId>
   <packaging>pom</packaging>
   <parent>
-    <groupId>uk.ac.ed.ph.jacomax</groupId>
+    <groupId>org.openolat.jacomax</groupId>
     <artifactId>jacomax-parent</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2.4</version>
   </parent>
   <dependencies>
     <dependency>
-      <groupId>uk.ac.ed.ph.jacomax</groupId>
+      <groupId>org.openolat.jacomax</groupId>
       <artifactId>jacomax</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>uk.ac.ed.ph.jacomax</groupId>
+      <groupId>org.openolat.jacomax</groupId>
       <artifactId>jacomax-samples</artifactId>
       <version>${project.version}</version>
     </dependency>

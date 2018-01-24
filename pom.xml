@@ -8,9 +8,9 @@ All Rights Reserved
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <name>Jacomax parent module</name>
-  <groupId>uk.ac.ed.ph.jacomax</groupId>
+  <groupId>org.openolat.jacomax</groupId>
   <artifactId>jacomax-parent</artifactId>
-  <version>0.2-SNAPSHOT</version>
+  <version>0.2.4</version>
   <packaging>pom</packaging>
   <modules>
     <module>jacomax</module>
@@ -99,10 +99,10 @@ All Rights Reserved
       <plugins>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>2.3.2</version>
+          <version>3.1</version>
           <configuration>
-            <source>1.5</source>
-            <target>1.5</target>
+            <source>1.8</source>
+            <target>1.8</target>
             <encoding>UTF-8</encoding>
           </configuration>
         </plugin>

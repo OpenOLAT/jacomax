@@ -11,13 +11,13 @@ All Rights Reserved
   <artifactId>jacomax-samples</artifactId>
   <packaging>jar</packaging>
   <parent>
-    <groupId>uk.ac.ed.ph.jacomax</groupId>
+    <groupId>org.openolat.jacomax</groupId>
     <artifactId>jacomax-parent</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2.4</version>
   </parent>
   <dependencies>
     <dependency>
-      <groupId>uk.ac.ed.ph.jacomax</groupId>
+      <groupId>org.openolat.jacomax</groupId>
       <artifactId>jacomax</artifactId>
       <version>${project.version}</version>
     </dependency>
