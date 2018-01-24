@@ -65,34 +65,23 @@ All Rights Reserved
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git@github.com:davemckain/jacomax.git</connection>
-    <developerConnection>scm:git:git@github.com:davemckain/jacomax.git</developerConnection>
-    <url>https://github.com/davemckain/jacomax</url>
+    <connection>scm:git:git@github.com:OpenOLAT/jacomax.git</connection>
+    <developerConnection>scm:git:git@github.com:OpenOLAT/jacomax.git</developerConnection>
+    <url>https://github.com/OpenOLAT/jacomax</url>
   </scm>
   <issueManagement>
-    <system>sourceforge</system>
-    <url>http://sourceforge.net/tracker/?group_id=311139</url>
+    <system>JIRA</system>
+    <url>https://jira.openolat.org</url>
   </issueManagement>
   <distributionManagement>
-    <!-- (This is not intended for general use!) -->
     <repository>
-      <id>www2.ph.ed.ac.uk</id>
-      <url>file:///Disk/apps-team/repositories/maven2</url>
+      <id>nexus.openolat</id>
+      <url>http://nexus.openolat.org/nexus/content/repositories/openolat</url>
     </repository>
     <snapshotRepository>
-      <id>www2.ph.ed.ac.uk</id>
-      <url>file:///Disk/apps-team/repositories/maven2</url>
+      <id>nexus.openolat</id>
+      <url>http://nexus.openolat.org/nexus/content/repositories/openolat-snapshots</url>
     </snapshotRepository>
-    <site>
-      <!--
-      Reminder! Need to create a shell on sourceforge first before trying to do
-      a site deployment.
-
-      ssh -t davemckain,jacomax@shell.sourceforge.net create
-      -->
-      <id>sourceforge.net</id>
-      <url>scp://shell.sourceforge.net/home/project-web/jacomax/htdocs/maven</url>
-    </site>
   </distributionManagement>
   <build>
     <pluginManagement>
