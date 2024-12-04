@@ -65,6 +65,7 @@ public final class JacomaxAutoConfigurator {
     };
 
     private static final String[] MAC_OS_X_EXECUTABLE_PATHS = {
+        "/opt/homebrew/bin/maxima", /* Standard way to install Maxima */
         "/Applications/Maxima.app/Contents/Resources/opt/bin/maxima", /* (Releases >= 5.41 of Maxima) */
         "/Applications/Maxima.app/Contents/Resources/maxima.sh", /* (Newer releases of Maxima) */
         "/Applications/Maxima.app/Contents/Resources/bin/maxima", /* (Older releases of Maxima) */
@@ -161,6 +162,7 @@ public final class JacomaxAutoConfigurator {
     private static final String WINDOWS_MAXIMA_FOLDER_PREFIX = "Maxima-";
 
     private static FilenameFilter windowsMaximaFolderFilter = new FilenameFilter() {
+        @Override
         public boolean accept(final File dir, final String name) {
             return name.startsWith(WINDOWS_MAXIMA_FOLDER_PREFIX);
         }
